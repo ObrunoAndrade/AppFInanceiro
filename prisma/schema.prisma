@@ -1,0 +1,15 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Transaction {
+  id        String   @id @default(uuid())
+  title     String
+  amount    Float
+  dueDate   DateTime
+  createdAt DateTime @default(now())
+}

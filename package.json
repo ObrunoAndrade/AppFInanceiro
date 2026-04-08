@@ -1,0 +1,32 @@
+{
+  "name": "projetofinanceiro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.6.0",
+    "@prisma/client": "^7.6.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "imap": "^0.8.19",
+    "mailparser": "^3.9.6",
+    "node-cron": "^4.2.1",
+    "node-imap": "^0.9.6",
+    "pg": "^8.20.0",
+    "prisma": "^7.6.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "nodemon": "^3.1.14"
+  }
+}
